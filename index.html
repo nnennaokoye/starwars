@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./style/index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="star-char">Star Wars Characters</h1>
+    </header>
+
+    <div class="pop-img" id="popImgBox">
+      <img src="style/Lukeskywalker.webp" alt="" id="popImg">
+      <span onclick="closeImg()">X</span>
+      
+      <div id="character-data"></div>
+    </div>
+
+    
+      <div class="gallery">
+        <img onclick="openImg(this.src)" src="style/Lukeskywalker.webp"  data-character="Luke Skywalker">
+        <img onclick="openImg(this.src)" src="style/C-3PO 6.jpeg" data-character="C-3PO">
+        <img onclick="openImg(this.src)" src="style/R2-D2.jpeg" data-character="R2-D2">
+        <img onclick="openImg(this.src)" src="style/Darth Vadar.jpeg" data-character="Darth Vader">
+        <img onclick="openImg(this.src)" src="style/Leia_Organa.webp" data-character="Leia Organa">
+        <img onclick="openImg(this.src)" src="style/Owen-OP.webp" data-character="Owen Lars">
+        <img onclick="openImg(this.src)" src="style/BeruWhitesunLars.webp" data-character="Beru Whitesun Lars">
+        <img onclick="openImg(this.src)" src="style/R5-D4.jpeg" data-character="R5-D4">
+        <img onclick="openImg(this.src)" src="style/Biggs Darklighter.jpeg" data-character="Biggs Darklighter">
+        <img onclick="openImg(this.src)" src="style/ObiWan2022.webp" data-character="Obi-Wan Kenobi">
+      </div>
+    
+  
+    <script src="./script/index.js"></script>
+  </body>
+</html>
